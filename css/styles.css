@@ -26,6 +26,17 @@
   --portfolio-border: 1px solid #eeeeee;
 }
 
+/* Global styles */
+
+body {
+  /* width: 1600px; */
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-clr);
+  background-color: var(--main-bg);
+}
+
 /* Reset */
 
 h1,
@@ -53,17 +64,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-/* Global styles */
-
-body {
-  /* width: 1600px; */
-  font-family: var(--main-font);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--main-text-clr);
-  background-color: var(--main-bg);
 }
 
 .container {
