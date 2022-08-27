@@ -155,6 +155,11 @@ img {
   padding-bottom: 32px;
 }
 
+.icon-contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -267,6 +272,7 @@ img {
 }
 
 .item-title {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   font-size: 14px;
