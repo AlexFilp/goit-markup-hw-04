@@ -267,9 +267,11 @@ img {
 
 .item-title {
   margin-bottom: 10px;
+
+  font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
 }
+
 .item-text {
   width: 270px;
   line-height: 1.71;
