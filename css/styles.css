@@ -9,6 +9,7 @@
   --main-text-clr: #212121;
   --secondary-text-clr: #757575;
   --grey-clr-60: rgba(255, 255, 255, 0.6);
+  --icon-color: #afb1b8;
 
   /* Fonts */
   --main-font: Roboto, sans-serif;
@@ -335,6 +336,33 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-clr);
+}
+
+.team-icon-list {
+  width: 206px;
+  height: 44px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.team-icon-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--icon-color);
+  fill: currentColor;
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+  color: var(--main-bg);
+  background-color: var(--brand-clr);
 }
 
 /**
