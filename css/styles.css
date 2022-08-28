@@ -161,7 +161,11 @@ img {
 }
 
 .contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--secondary-text-clr);
+  fill: currentColor;
 }
 
 .header-link:hover,
@@ -261,13 +265,23 @@ img {
 
 .features-item {
   width: 270px;
+  background-color: var(--special-bg);
 }
 
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
 
+.features-icon-container {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .item-title {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   font-size: 14px;
