@@ -391,15 +391,18 @@ img {
   gap: 30px;
 }
 
-.clients-icon {
-  color: var(--icon-color);
-  fill: currentColor;
+.clients-link {
+  width: 170px;
+  height: 92px;
+  display: inline-block;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+  color: var(--icon-color);
+  fill: currentColor;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--brand-clr);
   border-color: var(--brand-clr);
 }
