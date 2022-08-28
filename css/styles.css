@@ -9,6 +9,7 @@
   --main-text-clr: #212121;
   --secondary-text-clr: #757575;
   --grey-clr-60: rgba(255, 255, 255, 0.6);
+  --icon-bg-clr: rgba(255, 255, 255, 0.1);
   --icon-color: #afb1b8;
 
   /* Fonts */
@@ -381,6 +382,30 @@ img {
 
 /**
   |============================
+  | CLIENTS
+  |============================
+*/
+
+.clients-icon-list {
+  display: flex;
+  gap: 30px;
+}
+
+.clients-icon {
+  color: var(--icon-color);
+  fill: currentColor;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  color: var(--brand-clr);
+  border-color: var(--brand-clr);
+}
+
+/**
+  |============================
   | FOOTER
   |============================
 */
@@ -419,6 +444,46 @@ img {
 
 .grey-link {
   color: var(--grey-clr-60);
+}
+
+.social-link-text {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-bg);
+}
+
+.footer-group {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-social-links {
+  width: 206px;
+  height: 80px;
+}
+
+.social-link-group {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--main-bg);
+  background-color: var(--icon-bg-clr);
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--brand-clr);
 }
 
 /**
