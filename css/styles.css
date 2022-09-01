@@ -151,17 +151,13 @@ img {
   margin-left: auto;
 }
 
-.contact-link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .contact-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex;
   align-items: center;
   gap: 10px;
